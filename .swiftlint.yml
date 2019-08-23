@@ -1,0 +1,12 @@
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - VLabTest/Utils/RxKeyboard.swift
+
+disabled_rules:
+  - private_over_fileprivate
+  - force_cast
+  - line_length
+  - vertical_parameter_alignment
+  - identifier_name
+  - redundant_string_enum_value
